@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>de.roamingthings.yklockscreen</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/local/bin/yklockscreen.sh</string>
+  </array>
+  <key>KeepAlive</key>
+  <true/>
+  <!-- Enable to capture stdout and stderr -->
+  <key>StandardOutPath</key>
+  <string>/tmp/yklockscreen.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/yklockscreen.error.log</string>
+  <!-- -->
+</dict>
+</plist>
